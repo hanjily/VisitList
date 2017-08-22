@@ -93,7 +93,7 @@
       showPlace (address) {
         let index = this.addresses.indexOf(address);
         let placemark = this.addresses[index].placemark;
-        map.setCenter(placemark.geometry.getCoordinates(), 7);
+        map.setCenter(placemark.geometry.getCoordinates(), 12);
         placemark.balloon.open();
       }
     }
